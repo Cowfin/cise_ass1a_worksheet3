@@ -15,5 +15,5 @@ jobs:
           heroku_api_key: ${{secrets.HEROKU_API_KEY}}
           heroku_app_name: "mfk-cise-seper" #Must be unique in Heroku
           heroku_email: "wongkelvin279@gmail.com"
-          appdir: "backend" # <- This will point to the api folder in your project
+          appdir: "" # <- This will point to the api folder in your project
           procfile: "web:node app.js"
